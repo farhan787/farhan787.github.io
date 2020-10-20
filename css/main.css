@@ -1,12 +1,16 @@
 /* ---- reset ---- */
 
-body {
-  margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-.wrapper{
-  overflow-y:hidden !important;
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  overflow-y: hidden !important;
   overflow-x: hidden !important;
 }
 /* ---- particles.js container ---- */
@@ -23,8 +27,8 @@ body {
   background-size: cover;
   background-position: 50% 50%;*/
 }
-.head{
-  color: #32CD32;
+.head {
+  color: #32cd32;
   /*font-family: 'Karla', sans-serif;*/
   font-family: 'Lustria', serif;
   font-family: 'Raleway', sans-serif;
@@ -35,12 +39,19 @@ body {
   line-height: 20px;
   margin-bottom: 40px;
 }
-p{
+p {
   display: inline-block !important;
 }
 
-.section{
+a {
+  text-decoration: none;
+}
 
+#experience-projects:hover {
+  color: #289DBC;
+}
+
+.section {
   /*height: calc(100vh - 40px);*/
 
   height: 100vh;
@@ -54,36 +65,38 @@ p{
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  -webkit-transform: translate3d(0,0,0);
-
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
-.name{
-
-  width:70%;
-
+.name {
+  width: 70%;
 }
-.text{
+.text {
   font-size: 25px;
   margin-top: 20px;
   margin-bottom: 0px;
-  color:white;
+  color: white;
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
-.icons{
-  display:inline-block;
+.icons {
+  display: inline-block;
   float: left;
-  width:100%;
-  margin:0;
-
+  width: 100%;
+  margin: 0;
 }
-.fb, .ig, .lin, .git, .twit, .mail, .res{
-  color:#32CD32;
+.fb,
+.ig,
+.lin,
+.git,
+.twit,
+.mail,
+.res {
+  color: #32cd32;
 }
 
-.ico{
+.ico {
   border: 4px double white;
   border-radius: 50%;
   display: inline-block;
@@ -97,7 +110,7 @@ p{
   margin: 22px 8px;
 }
 
-.ico-res{
+.ico-res {
   border: 4px double white;
   border-radius: 50%;
   display: inline-block;
@@ -111,33 +124,33 @@ p{
   margin: 0px 8px;
 }
 
-.ico:hover{
+.ico:hover {
   transform: translateY(-4px);
 }
 
-.ico-res:hover{
+.ico-res:hover {
   transform: translateY(-4px);
 }
-.ico:hover .fb{
-  color:white;
+.ico:hover .fb {
+  color: white;
 }
-.ico:hover .lin{
-  color:white;
+.ico:hover .lin {
+  color: white;
 }
-.ico:hover .git{
-  color:white;
+.ico:hover .git {
+  color: white;
 }
-.ico:hover .ig{
-  color:white;
+.ico:hover .ig {
+  color: white;
 }
-.ico:hover .mail{
-  color:white;
+.ico:hover .mail {
+  color: white;
 }
-.ico:hover .twit{
-  color:white;
+.ico:hover .twit {
+  color: white;
 }
-.ico-res:hover .res{
-  color:white;
+.ico-res:hover .res {
+  color: white;
 }
 
 #bar {
@@ -157,22 +170,20 @@ p{
 }
 
 @media screen and (max-width: 700px) {
-
-  .name{
-    width:100%;
+  .name {
+    width: 100%;
   }
-  .head{
+  .head {
     font-size: 9vw;
     margin-bottom: 0px !important;
     padding: 0 !important;
-
   }
-  .text{
+  .text {
     font-size: 4vw;
     margin-bottom: 4px !important;
     margin-top: 5px !important;
   }
-  .ico{
+  .ico {
     border: 4px double white;
     border-radius: 50%;
     display: inline-block;
@@ -184,12 +195,11 @@ p{
     transition: all 0.2s ease;
     text-decoration: none;
     margin: 0px 3px !important;
-
   }
-  .icons{
+  .icons {
     margin-bottom: 8px;
   }
-  .ico-res{
+  .ico-res {
     border: 4px double white;
     border-radius: 50%;
     display: inline-block;
@@ -203,14 +213,13 @@ p{
     margin: 0px 8px !important;
   }
 
-  .fa-2x{
+  .fa-2x {
     font-size: 1.5em !important;
   }
-  .fa-3x{
+  .fa-3x {
     font-size: 2em !important;
   }
-  ul{
-    padding:0px !important;
-
+  ul {
+    padding: 0px !important;
   }
 }

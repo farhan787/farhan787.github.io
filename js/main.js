@@ -1,5 +1,5 @@
 /* ---- particles.js config ---- */
-s =3;
+s = 3;
 particlesJS("particles-js", {
   "particles": {
     "number": {

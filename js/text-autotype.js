@@ -1,6 +1,6 @@
 var i = 1;
 var j= -1;
-var list = ["Software Engineer | Web Development (Frontend & Backend)"];
+var list = ["Software Engineer currently working with Zomato"];
 var a=list[0];
 var len = list.length;
 var num = 0;

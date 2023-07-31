@@ -1,6 +1,6 @@
 var i = 1;
 var j = -1;
-var list = ['Software Engineer with love for Open Source, FullStack Web Development and Web3'];
+var list = ['Software Engineer who ❤️ Open Source, FullStack Web Development and Web3'];
 var a = list[0];
 var len = list.length;
 var num = 0;
